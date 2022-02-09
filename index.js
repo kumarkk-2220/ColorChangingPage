@@ -26,8 +26,10 @@ button.addEventListener("click", function (color) {
     document.querySelector("body").style.backgroundColor = color;
     if (color === "black") {
         document.querySelector("body").style.color = "white";
+        document.querySelector(".panel").style.borderColor = "white";
     } else {
         document.querySelector("body").style.color = "black";
+        document.querySelector(".panel").style.borderColor = "black";
     }
 });
 
